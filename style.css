@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(img/horizontal-banner-beauty-products-with-copy-space.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+
+	
+	
+	
+
+}
+#Detail{
+	display: none;
+	padding-left: 10%;
+	margin: 40px;
+	position: absolute;
+	border: 1px solid black;
+	width: 500px;
+	height: 250px;
+	background-color: #fff ;
+    box-shadow: 0 0 5px 5px rgb(218, 215, 215);
+	border-radius: 15px;
+	line-height: 27Px;
+}
+ul {
+    list-style-type: none;
+}
+.btnsupp{
+	
+	width: 20%;
+	background-color: #f1e89d;
+	border: 2px solid #f1e89d;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 5px;
+	
+	margin-left: 20%;
+	
+}
+.btnsupp:hover{
+    background-color: #9bd0ca;
+	border: 2px solid #9bd0ca;
+}
+
+.container {
+	background-color: #fff ;
+    box-shadow: 0 0 5px 5px rgb(218, 215, 215);
+	border-radius: 5px;
+	overflow: hidden;
+	width: 400px;
+	float: right;
+	margin-bottom: 50px;
+
+	
+	
+}
+
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+#labelpromotion{
+    padding-top: 10px;
+	padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+option{
+    width: 100px;
+  
+}
+#type{
+    display: flex;
+}
+select{
+    margin-left: 30px;
+	width: 100%;
+}
+.form-control {
+	margin-bottom: 10px;
+    position: relative;
+	
+	
+
+}
+
+#msgnom,#msgprenom,#msgemail,#msgtele,#msgenre,#msggroupe{
+	width: 100%;
+}
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+	
+}
+
+
+.form input[type="button"] {
+	background-color: #f1e89d;
+	border: 2px solid #f1e89d;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+.form input[type="button"]:hover{
+    background-color: #9bd0ca;
+	border: 2px solid #9bd0ca;
+}
+table, td, th {
+	
+	border: 1px solid;
+  }
+  table {
+	background-color: #f0f0f0;
+	width: 100%;
+	border-collapse: collapse;
+  }
+
+
+
+
+
+
+
+
+
+
+
